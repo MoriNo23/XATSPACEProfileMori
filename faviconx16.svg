@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   xml:space="preserve"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs1"><linearGradient
+       id="swatch600"><stop
+         style="stop-color:#d8d8d8;stop-opacity:1;"
+         offset="0"
+         id="stop600" /></linearGradient><linearGradient
+       id="swatch574"><stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop574" /></linearGradient><linearGradient
+       id="swatch58"
+       gradientTransform="matrix(0.18972944,0,0,0.18972944,-16939.307,-27718.23)"><stop
+         style="stop-color:#000000;stop-opacity:0.42044395;"
+         offset="0"
+         id="stop58" /></linearGradient></defs><rect
+     style="fill:#000000;fill-opacity:0;fill-rule:evenodd;stroke-width:2;stroke-linecap:round;stroke-miterlimit:300;paint-order:fill markers stroke"
+     id="rect4"
+     width="32"
+     height="32"
+     x="0"
+     y="0" /><circle
+     style="fill:#ffffff;fill-rule:evenodd;stroke-width:1.3005;stroke-linecap:round;stroke-miterlimit:300;paint-order:fill markers stroke"
+     id="path1"
+     cx="16.178833"
+     cy="16.413086"
+     r="7.4407201" /><path
+     id="path2"
+     style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke-width:1.06654;stroke-linecap:round;stroke-miterlimit:300;paint-order:fill markers stroke"
+     d="m 21.695492,11.42005 0.8418,1.1284 c 10.6974,-3.465 -3.1362,4.6308 -5.7216,5.6721 -2.4915,1.0034 -18.3415002,4.286 -7.9412002,-0.3879 l -0.1364,-1.4195 c -2.6116,1.3493 -9.14939996,4.6282 -8.71769996,5.8143 0.485,1.3322 12.00180016,-1.0729 17.18460016,-3.2197 5.1829,-2.1468 15.269,-7.6305 14.7777,-9.2803 -0.3357,-1.1274 -7.3663,0.8596 -10.2872,1.6926 z" /></svg>
