@@ -19,7 +19,7 @@ function App() {
   const [pause, setpause] = useState(true);
   return (
     <>
-      <div className="max-[600px]:flex-col max-[600px]:scale-x-6np0 flex grow main-containers-style m-20 rounded-2xl overflow-auto">
+      <div className="max-[600px]-w-full max-[600px]:flex-col max-[600px]:scale-x-6np0 flex grow main-containers-style m-20 rounded-2xl overflow-auto">
         <aside className="max-[600px]:flex-row flex flex-col items-center p-10 bg-linear-to-b from-neutral-900 to-neutral-700">
           <section className="flex gap-5 text-sm">
             <img
@@ -30,7 +30,9 @@ function App() {
             <div className="flex flex-col">
               <strong>{user.name}</strong>
               <br></br>
-              {user.subname}
+              <span className="max-[600px]:invisible max-[600px]:ml-2.5">
+                {user.subname}
+              </span>
             </div>
           </section>
 
@@ -49,7 +51,7 @@ function App() {
             </div>
           </nav>
         </aside>
-        <main className="p-10 m-5 overflow-auto max-w-160 min-w-160 bg-scroll">
+        <main className="max-[600px]:min-w-0 p-10 m-5 overflow-auto max-w-160 min-w-160 bg-scroll">
           {mostrarActivo === "home" && (
             <PostContainer {...user}></PostContainer>
           )}
