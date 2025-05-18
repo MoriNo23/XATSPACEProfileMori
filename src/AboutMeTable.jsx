@@ -1,6 +1,6 @@
 export function AboutMeTable({ config, data }) {
   return (
-    <table className="text-1">
+    <table className="text-[50%] text-nowrap">
       <thead>
         <tr>
           <td colSpan={2}>
@@ -10,11 +10,9 @@ export function AboutMeTable({ config, data }) {
       </thead>
       <tbody>
         {Object.entries(config).map(([pregunta, respuesta]) => (
-          <tr pregunta={pregunta} className="h-10">
-            <th className="bg-neutral-800 w-2.5 ">{respuesta}:</th>
-            <td className="text-[clamp(0.5rem,1vw,1rem)] pl-2">
-              {data[pregunta]}
-            </td>
+          <tr pregunta={pregunta}>
+            <th className="w-10 p-[3px_1em]">{respuesta}:</th>
+            <td>{data[pregunta]}</td>
           </tr>
         ))}
       </tbody>
